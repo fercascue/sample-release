@@ -18,4 +18,4 @@ jobs:
             release-type: maven
             package-name: release-please-action
         - name: Show info
-          run: echo ${{ steps.release.outputs.pr }}    
+          run: echo ${{fromJson(steps.release.outputs.pr).number}}    
