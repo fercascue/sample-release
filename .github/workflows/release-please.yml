@@ -17,5 +17,7 @@ jobs:
           with:
             release-type: maven
             package-name: release-please-action
-        - name: Show info
-          run: echo ${{fromJson(steps.release.outputs.pr).number}}    
+        - uses: peter-evans/enable-pull-request-automerge@v2
+          with:
+            pull-request-number: ${{fromJson(steps.release.outputs.pr).number}}
+            merge-method: squash
