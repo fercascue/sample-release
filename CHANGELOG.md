@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/fercascue/sample-release/compare/v1.4.0...v1.5.0) (2023-04-23)
+
+
+### Features
+
+* initial import ([67d31bc](https://github.com/fercascue/sample-release/commit/67d31bce5fc4bcbb2e323afd995844820be9a7c6))
+
 ## [1.4.0](https://github.com/fercascue/sample-release/compare/v1.3.1...v1.4.0) (2023-04-23)
 
 
